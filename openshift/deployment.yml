@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: vue-frontend
-          image: coba-fe    # Ganti setelah build
+          image: docker.io/fathyafi/coba-fe2:latest    # Ganti setelah build
           ports:
-            - containerPort: 80
+            - containerPort: 8080
